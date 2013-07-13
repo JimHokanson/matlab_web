@@ -1,0 +1,5 @@
+1) Pittcat Sessions
+Pittcat maintains a session id between windows. URLs obtained at one point may no longer be valid if you try to access them at a later time. This caused some significant problems with the GET_IT links.
+
+2) Cookies on ILL
+Filling out the ILL form requires the use of cookies, so this needed to be implemented in Matlab.

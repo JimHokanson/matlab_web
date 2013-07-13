@@ -1,0 +1,2 @@
+5/27/2012
+The class layout is currently a mess. Most of the files should probably be renamed. Inheritance is proving to be a bit messy as well and I'm probably doing it wrong.

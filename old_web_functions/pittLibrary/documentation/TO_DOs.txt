@@ -1,0 +1,19 @@
+1) If nothing has changed about a search in the client, the search should go back to the search results page
+
+2) Remove errors from request_journal_article stages and allow exiting gracefully ...
+
+3) Figure out what verbose will mean for message display and implement
+
+4) Implement page limit handling - 25 pages :/
+
+5) On set of Pubmed ID, clear document in storage
+
+6) Integration of partial info on lines that are determined to be missing
+
+7) Use of the Missing Status in the holdings 
+
+8) IN ULS - add to a list that I can browse ...
+
+9) pittcat_user.is_ILL_recommended - finish this 
+
+10) Add student_type check

@@ -1,0 +1,26 @@
+function docStruct = getJournalStruct
+%pittcat_getJournalStruct  Defines structure of journal entry
+%
+%   docStruct = pittcat_getJournalStruct
+%
+%   Place to define an entry for a PittCat Journal
+%
+%   OUTPUT
+%   =======================================================================
+%   docStruct (structure)
+%       .title
+%       .
+
+docStruct = struct(...
+    'title', '', ...
+    'volume','',... %string
+    'issue','',...  %string
+    'year','',...   %string
+    'pages','',...  
+    'authors',{{''}},...   %surname INITIALS (caps), that dependency isn't heavily used
+    'journal','',...
+    'issn','',...
+    'doi','',...
+    'pmid','',...
+    'sType','pittcat',...
+    'sVer',1);
